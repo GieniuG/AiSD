@@ -168,7 +168,6 @@ int main() {
   // printf("p %f\n", rectangleMethod(lb, ub, subreg, f2, RECT_RIGHT));
   // printf("t %f\n", trapezoidalMethod(lb, ub, subreg, f2));
   // printf("mc %f\n", monteCarlo(lb, ub, samp, f2));
-  monteCarlo(0, M_PI, 1000, f2);
   benchmarkTime();
   return 0;
 }
